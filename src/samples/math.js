@@ -5,4 +5,3 @@ console.log(area.toFixed(2))
 console.log(typeof Math)
 
 
-export default matematica;

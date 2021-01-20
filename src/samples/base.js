@@ -1,7 +1,5 @@
 
 
-
-
 const peso1 = 1.0
 const peso2 = Number('2.0')
 
@@ -24,5 +22,3 @@ console.log("10" / 2) // converte em numero
 console.log("Show" / 2) // not a number
 console.log((0.1 + 0.7).toFixed(2)) //gera imprecisão -> Usar toFixed
 
-
-export default base;

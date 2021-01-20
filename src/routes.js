@@ -1,11 +1,17 @@
 const express = require('express');
 const routes = express.Router();
-import base from './samples/base'
-import math from './samples/math'
+
+var base = require('./samples/base')
+var math = require('./samples/math')
 
 
 // Users
-routes.get('/base', base)
-routes.get('/math', math)
+routes.get('/base', function (req, res) {
+  base
+})
+
+routes.get('/math', function (req, res) {
+  math
+})
 
 module.exports = routes
