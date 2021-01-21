@@ -19,6 +19,8 @@ console.log(typeof Number)
 
 console.log(7 / 0) //gera infinito
 console.log("10" / 2) // converte em numero
+console.log("3" + 2) // concatena ++ String Ganha
+console.log("3" - 2) // Subtrai
 console.log("Show" / 2) // not a number
 console.log((0.1 + 0.7).toFixed(2)) //gera imprecisão -> Usar toFixed
 
