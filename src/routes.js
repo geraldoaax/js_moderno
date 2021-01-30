@@ -5,10 +5,10 @@ const routes = express.Router();
 // var math = require('./samples/math')
 //var strings = require('./samples/strings')
 //var templateString = require('./samples/templateString')
-var functions = require('./samples/function')
+var base = require('./samples/usandoVar')
 
-routes.get('/function', function (req, res) {
-  functions
+routes.get('/', function (req, res) {
+  base
 })
 
 module.exports = routes
