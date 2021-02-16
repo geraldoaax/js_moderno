@@ -5,7 +5,7 @@ const routes = express.Router();
 // var math = require('./samples/math')
 //var strings = require('./samples/strings')
 //var templateString = require('./samples/templateString')
-var base = require('./fundamentos/aritmetico2')
+var base = require('./fundamentos/relacionais')
 
 routes.get('/', function (req, res) {
   base
